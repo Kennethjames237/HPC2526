@@ -1,0 +1,8 @@
+#N  gflop  time(s)  GFLOPS   Hostname   Comment nthreads 
+ 1024,  2.15,  1.15,   1.87, wn1, wn1-1,  1
+#N  gflop  time(s)  GFLOPS   Hostname   Comment nthreads 
+ 1024,  2.15,  0.58,   3.71, wn1, wn1-2,  2
+#N  gflop  time(s)  GFLOPS   Hostname   Comment nthreads 
+ 1024,  2.15,  0.29,   7.40, wn1, wn1-4,  4
+#N  gflop  time(s)  GFLOPS   Hostname   Comment nthreads 
+ 1024,  2.15,  0.15,   14.12, wn1, wn1-8,  8

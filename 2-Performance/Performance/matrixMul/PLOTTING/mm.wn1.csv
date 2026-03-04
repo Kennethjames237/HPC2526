@@ -1,0 +1,4 @@
+# N  gflop  tempo(s)  GFLOP/s  Hostname   Comment  
+1024, 2.15,  1.10,   1.95,  wn1, gcc-wn1 
+# N  gflop  tempo(s)  GFLOP/s  Hostname   Comment  
+1024, 2.15,  0.56,   3.83,  wn1, gcc+gsl-wn1 
