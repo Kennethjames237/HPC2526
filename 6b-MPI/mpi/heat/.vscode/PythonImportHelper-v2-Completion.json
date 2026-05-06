@@ -1,0 +1,110 @@
+[
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "mpi_heat-1n",
+        "description": "mpi_heat-1n",
+        "peekOfCode": "df = pd.read_csv(\"mpi_heat_original-1n.csv\" , comment=\"#\", names=[\"par\", \"nt\", \"r\", \"c\", \"iter\", \"t\"])\n#print (df)\ndf1 = df[df[\"r\"] == 1024]\ndf2 = df[df[\"r\"] == 2048]\nprint (df2)\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling -> 1 Node (Overlap comunicazione)\" - Nna Minkousse Kenneth James 29/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')",
+        "detail": "mpi_heat-1n",
+        "documentation": {}
+    },
+    {
+        "label": "df1",
+        "kind": 5,
+        "importPath": "mpi_heat-1n",
+        "description": "mpi_heat-1n",
+        "peekOfCode": "df1 = df[df[\"r\"] == 1024]\ndf2 = df[df[\"r\"] == 2048]\nprint (df2)\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling -> 1 Node (Overlap comunicazione)\" - Nna Minkousse Kenneth James 29/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')\nplt.plot(df1.nt,df1.t,'-o', label='1024')\nplt.plot(df2.nt,df2.t,'-o', label='2048')",
+        "detail": "mpi_heat-1n",
+        "documentation": {}
+    },
+    {
+        "label": "df2",
+        "kind": 5,
+        "importPath": "mpi_heat-1n",
+        "description": "mpi_heat-1n",
+        "peekOfCode": "df2 = df[df[\"r\"] == 2048]\nprint (df2)\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling -> 1 Node (Overlap comunicazione)\" - Nna Minkousse Kenneth James 29/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')\nplt.plot(df1.nt,df1.t,'-o', label='1024')\nplt.plot(df2.nt,df2.t,'-o', label='2048')\nplt.legend(shadow=True,loc=\"best\")",
+        "detail": "mpi_heat-1n",
+        "documentation": {}
+    },
+    {
+        "label": "df1n",
+        "kind": 5,
+        "importPath": "mpi_heat-2n",
+        "description": "mpi_heat-2n",
+        "peekOfCode": "df1n = pd.read_csv(\"mpi_heat_original-1n.csv\" , comment=\"#\", names=[\"par\", \"nt\", \"r\", \"c\", \"iter\", \"t\"])\ndf2n = pd.read_csv(\"mpi_heat_original-2n.csv\" , comment=\"#\", names=[\"par\", \"nt\", \"r\", \"c\", \"iter\", \"t\"])\ndf1n1k = df1n[df1n[\"r\"] == 1024]\ndf1n2k = df1n[df1n[\"r\"] == 2048]\ndf2n1k = df2n[df2n[\"r\"] == 1024]\ndf2n2k = df2n[df2n[\"r\"] == 2048]\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling  1vs2 nodes(Overlap comunicazione)\" - Nna Minkousse Kenneth James 22/04/26')\nplt.grid()\nplt.xlabel('tasks')",
+        "detail": "mpi_heat-2n",
+        "documentation": {}
+    },
+    {
+        "label": "df2n",
+        "kind": 5,
+        "importPath": "mpi_heat-2n",
+        "description": "mpi_heat-2n",
+        "peekOfCode": "df2n = pd.read_csv(\"mpi_heat_original-2n.csv\" , comment=\"#\", names=[\"par\", \"nt\", \"r\", \"c\", \"iter\", \"t\"])\ndf1n1k = df1n[df1n[\"r\"] == 1024]\ndf1n2k = df1n[df1n[\"r\"] == 2048]\ndf2n1k = df2n[df2n[\"r\"] == 1024]\ndf2n2k = df2n[df2n[\"r\"] == 2048]\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling  1vs2 nodes(Overlap comunicazione)\" - Nna Minkousse Kenneth James 22/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')",
+        "detail": "mpi_heat-2n",
+        "documentation": {}
+    },
+    {
+        "label": "df1n1k",
+        "kind": 5,
+        "importPath": "mpi_heat-2n",
+        "description": "mpi_heat-2n",
+        "peekOfCode": "df1n1k = df1n[df1n[\"r\"] == 1024]\ndf1n2k = df1n[df1n[\"r\"] == 2048]\ndf2n1k = df2n[df2n[\"r\"] == 1024]\ndf2n2k = df2n[df2n[\"r\"] == 2048]\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling  1vs2 nodes(Overlap comunicazione)\" - Nna Minkousse Kenneth James 22/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')\nplt.yscale('log')",
+        "detail": "mpi_heat-2n",
+        "documentation": {}
+    },
+    {
+        "label": "df1n2k",
+        "kind": 5,
+        "importPath": "mpi_heat-2n",
+        "description": "mpi_heat-2n",
+        "peekOfCode": "df1n2k = df1n[df1n[\"r\"] == 2048]\ndf2n1k = df2n[df2n[\"r\"] == 1024]\ndf2n2k = df2n[df2n[\"r\"] == 2048]\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling  1vs2 nodes(Overlap comunicazione)\" - Nna Minkousse Kenneth James 22/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')\nplt.yscale('log')\nplt.plot(df1n2k.nt,  df1n2k.t, '-o', label=\"2048-1node\")",
+        "detail": "mpi_heat-2n",
+        "documentation": {}
+    },
+    {
+        "label": "df2n1k",
+        "kind": 5,
+        "importPath": "mpi_heat-2n",
+        "description": "mpi_heat-2n",
+        "peekOfCode": "df2n1k = df2n[df2n[\"r\"] == 1024]\ndf2n2k = df2n[df2n[\"r\"] == 2048]\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling  1vs2 nodes(Overlap comunicazione)\" - Nna Minkousse Kenneth James 22/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')\nplt.yscale('log')\nplt.plot(df1n2k.nt,  df1n2k.t, '-o', label=\"2048-1node\")\nplt.plot(df2n2k.nt,  df2n2k.t, '-o', label=\"2048-2nodes\")",
+        "detail": "mpi_heat-2n",
+        "documentation": {}
+    },
+    {
+        "label": "df2n2k",
+        "kind": 5,
+        "importPath": "mpi_heat-2n",
+        "description": "mpi_heat-2n",
+        "peekOfCode": "df2n2k = df2n[df2n[\"r\"] == 2048]\nplt.subplot(2,1,1)\nplt.title('MPI \"HEAT scaling  1vs2 nodes(Overlap comunicazione)\" - Nna Minkousse Kenneth James 22/04/26')\nplt.grid()\nplt.xlabel('tasks')\nplt.ylabel('time')\nplt.yscale('log')\nplt.plot(df1n2k.nt,  df1n2k.t, '-o', label=\"2048-1node\")\nplt.plot(df2n2k.nt,  df2n2k.t, '-o', label=\"2048-2nodes\")\nplt.legend(shadow=True,loc=\"best\")",
+        "detail": "mpi_heat-2n",
+        "documentation": {}
+    }
+]

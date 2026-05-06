@@ -1,0 +1,76 @@
+
+# Modulus: B81915BC0A2222F4B 68 bits - prime: address 8 bit, block 26 bit,  num_threads 4
+
+thread 0 processing block 255
+thread 3 processing block 254
+thread 2 processing block 252
+thread 1 processing block 253
+thread 2 processed block 252 in 3.7 sec. result 0
+thread 2 processing block 251
+thread 0 processed block 255 in 3.7 sec. result 0
+thread 0 processing block 250
+thread 3 processed block 254 in 3.7 sec. result 0
+thread 3 processing block 249
+thread 1 processed block 253 in 3.7 sec. result 0
+thread 1 processing block 248
+thread 1 processed block 248 in 3.7 sec. result 0
+thread 1 processing block 247
+thread 2 processed block 251 in 3.7 sec. result 0
+thread 2 processing block 246
+thread 3 processed block 249 in 3.7 sec. result 0
+thread 3 processing block 245
+thread 0 processed block 250 in 3.7 sec. result 0
+thread 0 processing block 244
+thread 1 processed block 247 in 3.7 sec. result 0
+thread 1 processing block 243
+thread 3 processed block 245 in 3.7 sec. result 0
+thread 3 processing block 242
+thread 2 processed block 246 in 3.7 sec. result 0
+thread 2 processing block 241
+thread 0 processed block 244 in 3.7 sec. result 0
+thread 0 processing block 240
+thread 1 processed block 243 in 3.7 sec. result 0
+thread 1 processing block 239
+thread 3 processed block 242 in 3.7 sec. result 0
+thread 3 processing block 238
+thread 0 processed block 240 in 3.7 sec. result 0
+thread 0 processing block 237
+thread 2 processed block 241 in 3.7 sec. result 0
+thread 2 processing block 236
+thread 0 processed block 237 in 3.7 sec. result 0
+thread 0 processing block 235
+thread 1 processed block 239 in 3.8 sec. result 0
+thread 1 processing block 234
+thread 3 processed block 238 in 3.8 sec. result 0
+thread 3 processing block 233
+thread 2 processed block 236 in 3.8 sec. result 0
+thread 2 processing block 232
+thread 1 processed block 234 in 3.7 sec. result 0
+thread 1 processing block 231
+thread 0 processed block 235 in 3.7 sec. result 0
+thread 0 processing block 230
+thread 3 processed block 233 in 3.7 sec. result 0
+thread 3 processing block 229
+thread 2 processed block 232 in 3.7 sec. result 0
+thread 2 processing block 228
+thread 1 processed block 231 in 3.7 sec. result 0
+thread 1 processing block 227
+thread 0 processed block 230 in 3.7 sec. result 0
+thread 0 processing block 226
+thread 3 processed block 229 in 3.7 sec. result 0
+thread 3 processing block 225
+thread 2 processed block 228 in 3.7 sec. result 0
+thread 2 processing block 224
+thread 1 processed block 227 in 3.7 sec. result 0
+thread 1 processing block 223
+thread 0 processed block 226 in 3.7 sec. result 0
+thread 0 processing block 222
+thread 3 processed block 225 in 3.7 sec. result 0
+thread 3 processing block 221
+thread 2 processed block 224 in 3.7 sec. result 0
+thread 2 processing block 220
+thread 3 processed block 221 in 1.6 sec. result 1
+thread 1 processed block 223 in 3.7 sec. result 0
+thread 0 processed block 222 in 3.7 sec. result 0
+thread 2 processed block 220 in 3.8 sec. result 0
+FOUND: 375C8B8B3

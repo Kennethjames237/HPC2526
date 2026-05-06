@@ -1,0 +1,10 @@
+module
+#SLURM_JOB_NODELIST      : wn[21-22]
+#SLURM_NNODES            : 2
+#SLURM_NTASKS            : 4
+#SLURM_JOB_CPUS_PER_NODE : 2(x2)
+Hello from task 0 on wn21!
+Hello from task 1 on wn21!
+MASTER: Number of MPI tasks is: 4
+Hello from task 2 on wn22!
+Hello from task 3 on wn22!

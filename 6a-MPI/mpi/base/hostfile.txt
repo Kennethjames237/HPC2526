@@ -1,0 +1,5 @@
+#wn21
+#wn22
+wn1 slots=4
+wn2 slots=4
+

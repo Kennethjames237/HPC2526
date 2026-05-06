@@ -1,0 +1,5 @@
+module
+#SLURM_JOB_NODELIST      : wn20
+#SLURM_NNODES            : 1
+#SLURM_NTASKS            : 4
+#SLURM_JOB_CPUS_PER_NODE : 4

@@ -1,0 +1,4 @@
+#SLURM_JOB_NODELIST      : wn[20-21]
+#SLURM_NNODES            : 2
+#SLURM_NTASKS            : 2
+#SLURM_JOB_CPUS_PER_NODE : 8(x2)
