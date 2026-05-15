@@ -1,0 +1,47 @@
+[
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "dfG",
+        "kind": 5,
+        "importPath": "cpi.cuda_cpi_scaling",
+        "description": "cpi.cuda_cpi_scaling",
+        "peekOfCode": "dfG = pd.read_csv(\"cuda_cpi_global.csv\",comment=\"#\", names=[\"par\", \"N\", \"gridDim\",  \"blockDim\", \"pi\" ,\"err\", \"wtime\", \"mtime\",  \"ktime\"] )\ndfS = pd.read_csv(\"cuda_cpi_shared.csv\",comment=\"#\", names=[\"par\", \"N\", \"gridDim\",  \"blockDim\", \"pi\" ,\"err\", \"wtime\", \"mtime\", \"ktime\"] )\nprint (dfG)\nplt.title('CUDA \"CPI scaling\" - Roberto Alfieri 24/04/26')\nplt.grid()\nplt.xlabel('blockDim')\nplt.ylabel('time')\nplt.yscale('log')\nplt.plot(dfG.blockDim,dfG.ktime,'-o', label='Glob-kern')\nplt.plot(dfG.blockDim,dfG.mtime,'-o', label='Glob-memc')",
+        "detail": "cpi.cuda_cpi_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "dfS",
+        "kind": 5,
+        "importPath": "cpi.cuda_cpi_scaling",
+        "description": "cpi.cuda_cpi_scaling",
+        "peekOfCode": "dfS = pd.read_csv(\"cuda_cpi_shared.csv\",comment=\"#\", names=[\"par\", \"N\", \"gridDim\",  \"blockDim\", \"pi\" ,\"err\", \"wtime\", \"mtime\", \"ktime\"] )\nprint (dfG)\nplt.title('CUDA \"CPI scaling\" - Roberto Alfieri 24/04/26')\nplt.grid()\nplt.xlabel('blockDim')\nplt.ylabel('time')\nplt.yscale('log')\nplt.plot(dfG.blockDim,dfG.ktime,'-o', label='Glob-kern')\nplt.plot(dfG.blockDim,dfG.mtime,'-o', label='Glob-memc')\nplt.plot(dfG.blockDim,dfG.wtime,'-o', label='Glob-wall')",
+        "detail": "cpi.cuda_cpi_scaling",
+        "documentation": {}
+    }
+]
